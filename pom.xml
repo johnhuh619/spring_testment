@@ -10,7 +10,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <org.springframework-version>5.2.3.RELEASE</org.springframework-version>
+    <org.springframework-version>6.0.0</org.springframework-version>
   </properties>
   <dependencies>
     <dependency>
@@ -65,7 +65,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>6.0.0</version> <!-- 원하는 버전으로 변경 -->
+      <version>${org.springframework-version}</version> <!-- 원하는 버전으로 변경 -->
     </dependency>
 
     <!-- JSP 사용 시 JSTL 필요 -->
